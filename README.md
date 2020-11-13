@@ -8,10 +8,10 @@
 
 ## Navigation Menu
 
-`yarn start`
-`yarn add node-sass@4.14.1 sass-loader`
-cf) yarn add / yarn remove
-`yarn add react-router react-router-dom`
+- `yarn start`
+- `yarn add node-sass@4.14.1 sass-loader`
+  cf) yarn add / yarn remove
+- `yarn add react-router react-router-dom`
 
 ```js
 // App.js
@@ -164,6 +164,14 @@ export default function PageRenderer() {
 
   return generatePage(page)
 }
+
+// pages/home,login,contact-us,blog.js
+import React from 'react'
+
+export default function Home () {
+  return <div>Home</div>
+}
+
 ```
 
 <br>[Top](#My-React-Blog)
