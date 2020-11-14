@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from './components/navigation'
+import Navigation from './components/common/navigation'
 import {
   BrowserRouter as Router,
   Switch,
